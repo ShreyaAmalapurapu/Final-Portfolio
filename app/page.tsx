@@ -53,7 +53,7 @@ export default function PortfolioPage() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link 
-                  href="https://github.com/aqlaboratory/ariadne" 
+                  href="https://www.aqlab.io/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="px-6 py-2.5 border-2 border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400/10 transition-colors"
