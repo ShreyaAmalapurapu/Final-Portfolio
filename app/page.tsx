@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/navigation"
+import { SiteHeader } from "@/components/site-header"
 import Link from "next/link"
 
 type Project = {
@@ -130,15 +131,7 @@ export default function PortfolioPage() {
     <div className="min-h-screen bg-[#0a0e14] text-gray-300 font-mono p-8 md:p-16 lg:p-24">
       <div className="max-w-6xl mx-auto space-y-16">
         {/* Header */}
-        <header className="space-y-4">
-          <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-            <span className="text-cyan-400">shreya</span>
-          </h1>
-          <p className="text-lg md:text-xl text-gray-400">
-            <span className="text-pink-400">{">"}</span> studying <span className="text-cyan-400">cs + math</span> @
-            columbia
-          </p>
-        </header>
+        <SiteHeader />
 
         <Navigation />
 
