@@ -27,7 +27,7 @@ export default function WorkPage() {
           </div>
 
           <p className="text-gray-300 leading-relaxed text-lg max-w-4xl">
-            I've worked across industry and research, focusing on ML systems, AI/ML research, and applied software engineering.
+            Some highlights from building things at companies, in labs, and occasionally on a boat.
           </p>
 
           {/* Work Experience Cards */}
@@ -48,7 +48,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">May 2026 – Aug 2026</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Architecting an agentic permissions management platform for company-wide data access, with policy-aware guardrails that let AI agents autonomously acquire only the permissions they need. Building Chupacabra, an AI-powered Slack bot (Go/HTTP microservice) that composes skill bundles and MCP server integrations across GitHub, Jira, Confluence, and Snowflake for sandboxed agentic assistance across 10+ internal teams. Also designing a batch data ingestion pipeline for GBs of observability telemetry, backed by Terraform-managed cloud infrastructure and IAM policies for reproducible deployments.
+                  Teaching AI agents to ask permission before touching your data. Building Chupacabra, a Slack bot that plugs into GitHub, Jira, Confluence, and Snowflake for 10+ teams — plus the guardrails so it doesn't go rogue.
                 </p>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">Jun 2025 – Sep 2025</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Built a large-scale analytics platform enabling natural language queries across org-wide data with under 10s latency, serving 100+ users. Designed high-throughput ingestion and embedding pipelines processing 1M+ records daily across data sources, indexing into a vector database to enable sub-second semantic search over 10TB+ of enterprise data. Built an automated iterative agent framework with a continuous evaluation pipeline across 100+ test scenarios, improving RAG accuracy from 65% to 85% and enabling optimization of RAG chunking and multi-agent orchestration.
+                  Built an AI analyst that lets anyone query 10TB+ of company data in plain English, no SQL required. Spent a summer nudging RAG accuracy from 65% to 85%, one evaluation run at a time.
                 </p>
               </div>
             </div>
@@ -90,7 +90,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">May 2024 – Present</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Trained sparse autoencoders on LLM activations (11B+ parameters) to uncover semantic representations with 90%+ accuracy. Built a multi-agent reasoning system with specialized roles — decider, reasoner, and executor — that improved complex problem-solving accuracy by 35% over single-agent models through structured task decomposition and inter-agent coordination.
+                  Poking around inside billion-parameter models to see what they're actually thinking. Built a little team of AI agents — a decider, a reasoner, an executor — that argue their way to better answers, 35% better than going it alone.
                 </p>
               </div>
             </div>
@@ -111,7 +111,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">Dec 2024 – May 2025</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Built an end-to-end ETL platform processing 50+ datasets, reducing data transformation and synthetic data generation time from 3–5 days to under 2 hours and accelerating iteration cycles for downstream ML teams. Designed a unified data platform consolidating 15+ sources with automated schema normalization and ID resolution, reducing query latency from 2s to under 100ms and enabling real-time cross-dataset analytics.
+                  Turned a 3-5 day, spreadsheet-fueled data slog into a 2-hour pipeline. Made 15+ messy biomedical data sources play nice together so ML teams could stop waiting around.
                 </p>
               </div>
             </div>
@@ -132,7 +132,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">May 2024 – Dec 2024</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Designed and trained deep learning architectures — GNNs, CNNs, and ensemble models — for link prediction, clustering, and multi-level classification, boosting predictive performance by 20–30% through hyperparameter tuning and negative sampling strategies. Built a distributed data processing pipeline leveraging HPC clusters with parallelized SLURM jobs to preprocess 30,000+ dense protein structure files, reducing processing time by 95%, from months to two weeks.
+                  Trained graph neural nets on proteins and put a supercomputer to work on 30,000+ protein structures — turned a months-long job into two weeks.
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">2024 – Present</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Evaluated early-stage startups at the intersection of AI, healthcare, and infrastructure through market analysis, technical diligence, and investment memos. Worked closely with founders on product strategy and technical positioning.
+                  Spent my free time picking apart startup pitch decks and asking founders uncomfortable technical questions about AI, healthcare, and infra.
                 </p>
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">2024 – Present</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Participated in reading groups and discussions on AI safety, alignment, and model robustness, with emphasis on failure modes, interpretability, and responsible deployment of ML systems.
+                  Weekly deep dives into why AI systems break, lie, or go sideways — and what we can actually do about it.
                 </p>
               </div>
             </div>
@@ -195,7 +195,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">2024 – Present</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Worked as part of a cross-institutional team in partnership with a Columbia research lab and NYC Parks to design and deploy an autonomous aquatic vehicle for monitoring algae blooms in ponds and lakes. Contributed to system design, sensor-driven data collection, and control logic, enabling real-world environmental monitoring and targeted treatment dispersal to support ecosystem health.
+                  Helped build a robot boat that hunts algae blooms for NYC Parks. Yes, an actual boat, with sensors and a mission.
                 </p>
               </div>
             </div>
@@ -216,7 +216,7 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">2024</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Conducted diligence on frontier technology startups, focusing on AI-driven products and data-intensive systems. Analyzed business models, competitive landscapes, and technical differentiation.
+                  Read a lot of frontier-tech pitch decks and said "this won't scale" more than once.
                 </p>
               </div>
             </div>
