@@ -32,8 +32,29 @@ export default function WorkPage() {
 
           {/* Work Experience Cards */}
           <div className="space-y-0 mt-12 divide-y divide-gray-800">
-            {/* Software Engineering Intern at Amazon */}
+            {/* Software Engineering Intern at Datadog */}
             <div className="flex gap-6 py-12 first:pt-0">
+              <div className="flex-shrink-0">
+                <div className="w-16 h-16 rounded-full bg-purple-500 flex items-center justify-center overflow-hidden">
+                  <span className="text-white font-bold text-xl">DD</span>
+                </div>
+              </div>
+              <div className="flex-1 min-w-0">
+                <div className="flex items-start justify-between gap-4">
+                  <div>
+                    <h3 className="text-2xl font-semibold text-white">Datadog</h3>
+                    <p className="text-gray-400 text-lg mt-1">Software Engineering Intern</p>
+                  </div>
+                  <p className="text-gray-400 whitespace-nowrap">May 2026 – Aug 2026</p>
+                </div>
+                <p className="text-gray-300 mt-4 leading-relaxed">
+                  Architecting an agentic permissions management platform for company-wide data access, with policy-aware guardrails that let AI agents autonomously acquire only the permissions they need. Building Chupacabra, an AI-powered Slack bot (Go/HTTP microservice) that composes skill bundles and MCP server integrations across GitHub, Jira, Confluence, and Snowflake for sandboxed agentic assistance across 10+ internal teams. Also designing a batch data ingestion pipeline for GBs of observability telemetry, backed by Terraform-managed cloud infrastructure and IAM policies for reproducible deployments.
+                </p>
+              </div>
+            </div>
+
+            {/* Software Engineering Intern at Amazon */}
+            <div className="flex gap-6 py-12">
               <div className="flex-shrink-0">
                 <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
                   <Image src="/amazon-logo.png" alt="Amazon" width={64} height={64} className="object-contain" />
@@ -43,17 +64,17 @@ export default function WorkPage() {
                 <div className="flex items-start justify-between gap-4">
                   <div>
                     <h3 className="text-2xl font-semibold text-white">Amazon</h3>
-                    <p className="text-gray-400 text-lg mt-1">Software Engineering Intern - data engineering and applied AI</p>
+                    <p className="text-gray-400 text-lg mt-1">Software Engineering Intern</p>
                   </div>
                   <p className="text-gray-400 whitespace-nowrap">Jun 2025 – Sep 2025</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Built a scalable analytics agent enabling natural language queries over hundreds of datasets, replacing manual BI workflows with real-time AI-driven insights. Designed ingestion, embedding, and caching pipelines to improve latency, reduce compute cost, and support reliable multi-user usage at scale.
+                  Built a large-scale analytics platform enabling natural language queries across org-wide data with under 10s latency, serving 100+ users. Designed high-throughput ingestion and embedding pipelines processing 1M+ records daily across data sources, indexing into a vector database to enable sub-second semantic search over 10TB+ of enterprise data. Built an automated iterative agent framework with a continuous evaluation pipeline across 100+ test scenarios, improving RAG accuracy from 65% to 85% and enabling optimization of RAG chunking and multi-agent orchestration.
                 </p>
               </div>
             </div>
 
-            {/* AI/ML Researcher at CRIS Lab */}
+            {/* ML Research Intern at CRIS Lab */}
             <div className="flex gap-6 py-12">
               <div className="flex-shrink-0">
                 <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
@@ -63,13 +84,13 @@ export default function WorkPage() {
               <div className="flex-1 min-w-0">
                 <div className="flex items-start justify-between gap-4">
                   <div>
-                    <h3 className="text-2xl font-semibold text-white">CRIS Lab (Complex Resilient Intelligent Systems Lab)</h3>
-                    <p className="text-gray-400 text-lg mt-1">AI/ML Researcher</p>
+                    <h3 className="text-2xl font-semibold text-white">Complex Resilient Intelligent Systems (CRIS) Lab @ Columbia University</h3>
+                    <p className="text-gray-400 text-lg mt-1">ML Research Intern</p>
                   </div>
-                  <p className="text-gray-400 whitespace-nowrap">Jan 2025 – Present</p>
+                  <p className="text-gray-400 whitespace-nowrap">May 2024 – Present</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Conducting research on representation learning and mechanistic interpretability, including sparse autoencoders, clustering over large embedding spaces, and reinforcement learning techniques to improve model reasoning. Exploring distillation methods to transfer reasoning behaviors from larger models to smaller ones.
+                  Trained sparse autoencoders on LLM activations (11B+ parameters) to uncover semantic representations with 90%+ accuracy. Built a multi-agent reasoning system with specialized roles — decider, reasoner, and executor — that improved complex problem-solving accuracy by 35% over single-agent models through structured task decomposition and inter-agent coordination.
                 </p>
               </div>
             </div>
@@ -90,28 +111,28 @@ export default function WorkPage() {
                   <p className="text-gray-400 whitespace-nowrap">Dec 2024 – May 2025</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Built data pipelines and ETL systems for transforming unstructured biomedical data into reusable, structured datasets. Designed backend services and automation that reduced processing time from days to hours and enabled rapid experimentation for downstream ML teams.
+                  Built an end-to-end ETL platform processing 50+ datasets, reducing data transformation and synthetic data generation time from 3–5 days to under 2 hours and accelerating iteration cycles for downstream ML teams. Designed a unified data platform consolidating 15+ sources with automated schema normalization and ID resolution, reducing query latency from 2s to under 100ms and enabling real-time cross-dataset analytics.
                 </p>
               </div>
             </div>
 
-            {/* AI/ML Researcher at Columbia Medical Center */}
+            {/* ML Research Intern at AlQuraishi Lab */}
             <div className="flex gap-6 py-12">
               <div className="flex-shrink-0">
                 <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center overflow-hidden">
-                  <Image src="/columbia-med-logo.png" alt="Columbia Medical" width={64} height={64} className="object-contain" />
+                  <Image src="/columbia-med-logo.png" alt="AlQuraishi Lab" width={64} height={64} className="object-contain" />
                 </div>
               </div>
               <div className="flex-1 min-w-0">
                 <div className="flex items-start justify-between gap-4">
                   <div>
-                    <h3 className="text-2xl font-semibold text-white">Columbia Medical Center — Machine Learning & Systems Biology Lab</h3>
-                    <p className="text-gray-400 text-lg mt-1">AI/ML Researcher</p>
+                    <h3 className="text-2xl font-semibold text-white">AlQuraishi Lab @ Columbia University</h3>
+                    <p className="text-gray-400 text-lg mt-1">ML Research Intern</p>
                   </div>
-                  <p className="text-gray-400 whitespace-nowrap">May 2024 – Jan 2025</p>
+                  <p className="text-gray-400 whitespace-nowrap">May 2024 – Dec 2024</p>
                 </div>
                 <p className="text-gray-300 mt-4 leading-relaxed">
-                  Developed machine learning models for large-scale biological data, including graph-based and deep learning approaches for link prediction and classification. Built HPC-backed data processing pipelines to accelerate experimentation and enable large-scale analysis.
+                  Designed and trained deep learning architectures — GNNs, CNNs, and ensemble models — for link prediction, clustering, and multi-level classification, boosting predictive performance by 20–30% through hyperparameter tuning and negative sampling strategies. Built a distributed data processing pipeline leveraging HPC clusters with parallelized SLURM jobs to preprocess 30,000+ dense protein structure files, reducing processing time by 95%, from months to two weeks.
                 </p>
               </div>
             </div>
